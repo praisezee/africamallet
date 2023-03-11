@@ -19,7 +19,7 @@ const Hero = () =>
       <Carousel activeIndex={index} onSelect={handleSelect} className='h-100'>
       <Carousel.Item>
         <img
-          className="d-block carousel-img "
+          className="d-block w-100"
           src={farm}
           alt="First slide"
         />
@@ -30,7 +30,7 @@ const Hero = () =>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block carousel-img"
+          className="d-block w-100"
           src={fruits}
           alt="Second slide"
         />
@@ -42,7 +42,7 @@ const Hero = () =>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block carousel-img"
+          className="d-block w-100"
           src={cult}
           alt="Third slide"
         />
@@ -56,27 +56,13 @@ const Hero = () =>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block carousel-img"
+          className="d-block w-100"
           src={smile}
           alt="fourth slide"
         />
 
         <Carousel.Caption>
           <h3>fourth slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block carousel-img"
-          src={vegitable}
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Fifth slide label</h3>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
