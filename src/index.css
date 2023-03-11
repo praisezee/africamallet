@@ -1,0 +1,27 @@
+body{
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+}
+
+#root{
+      flex: 1;
+
+}
+
+.h-screen{
+      height: 100vh !important;
+}
+
+.carousel-img{
+      height: 100vh !important;
+      width: 100% !important;
+}
+
+
+@media screen and (min-width: 992px) {
+      .carousel-img{
+      height: 100vh !important;
+      width: 98vw !important;
+}
+}
