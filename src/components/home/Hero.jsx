@@ -4,7 +4,6 @@ import farm from '../../assets/farm.jpg';
 import fruits from '../../assets/fruits.jpg';
 import smile from '../../assets/smile.jpg';
 import cult from '../../assets/cult.jpg';
-import vegitable from '../../assets/vegitable.jpg';
 
 
 const Hero = () =>
