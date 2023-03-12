@@ -10,7 +10,7 @@ const Offer = () =>
     const fetchOffer = async () =>
     {
       try {
-      const response = await offers.get( './db/offer.json' );
+      const response = await offers.get( '/db/offer.json' );
       const result = response.data;
       setOffer(result)
     } catch (error) {
