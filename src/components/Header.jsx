@@ -7,12 +7,12 @@ const Header = () =>
 {
   
   return (
-    <Navbar collapseOnSelect expand="lg" bg='dark' variant='dark'  fixed='top'>
+    <Navbar collapseOnSelect expand="lg" variant='dark' bg='dark' sticky='top'>
       <Container fluid className='px-5'>
         <NavbarBrand >
           <Link to='/' className='nav-link d-flex'>
             <img src="/vite.svg" alt="" width='30' height='30' className='d-inline-block align-top' />
-            <p className="d-none d-md-block h3">Africa Mallet</p>
+            <p className="d-none d-sm-block h3">Africa Mall</p>
           </Link>
         </NavbarBrand>
         <NavbarToggle aria-controls="responsive-navbar-nav" />

@@ -15,10 +15,10 @@ const Hero = () =>
   };
   return (
     <div className="d-flex justify-content-center align-items-center">
-      <Carousel activeIndex={index} onSelect={handleSelect} className='h-100'>
+      <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 img-fluid"
           src={farm}
           alt="First slide"
         />

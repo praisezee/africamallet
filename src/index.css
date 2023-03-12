@@ -13,4 +13,8 @@ body{
       height: 100vh !important;
 }
 
+.h-50vh{
+      max-height: 50vh !important;
+}
+
 
