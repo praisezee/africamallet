@@ -1,24 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import vegitable from '../../assets/vegitable.jpg'
-import offers from '../../api/offers'
+import myOffer from '../../api/offer'
 
 const Offer = () =>
 {
-  const [ offer, setOffer ] = useState([])
-  useEffect( () =>
-  {
-    const fetchOffer = async () =>
-    {
-      try {
-      const response = await offers.get( '/db/offer.json' );
-      const result = response.data;
-      setOffer(result)
-    } catch (error) {
-      console.log
-    }
-    }
-    fetchOffer()
-  },[])
+  const [ offer, setOffer ] = useState(myOffer)
   return (
     <div className='mt-5'>
       <p className="text-center text-uppercase mx-auto h1 my-5">
@@ -33,7 +18,8 @@ const Offer = () =>
             </div>
             <div className="col-md-8">
               <div className="card-body">
-                <div className="card-title">{ item.title }</div>
+                <div className="card-title mx-auto h2 text-uppercase text-center">{ item.title }</div>
+                <hr className="mx-auto opacity-1 text-white w-25" />
                 <div className="card-text">{ item.text }</div>
               </div>
             </div>
