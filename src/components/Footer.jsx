@@ -8,7 +8,9 @@ const Footer = () => {
       <Row>
         <Col xs={ 6 }>
           <NavLink href='#home' eventKey={1}>
-            Home
+            <Link className='nav-link' to='/'>
+              Home
+            </Link>
           </NavLink>
           <NavLink eventKey={2} href="#about">
             About
