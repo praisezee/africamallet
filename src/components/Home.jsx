@@ -1,13 +1,22 @@
 import React from 'react'
 import Hero from './home/Hero';
 import Offer from './home/Offer';
+import Testimonial from './home/Testimonial';
+import Abouts from './home/Abouts';
+import Contact from './home/Contact';
+import { Container } from 'react-bootstrap';
 
 const Home = () => {
   return (
-    <div className='w-100'>
+    <>
       <Hero />
-      <Offer/>
-    </div> 
+      <Container fluid>
+        <Offer />
+        <Testimonial />
+        <Abouts />
+        <Contact/>
+      </Container>
+    </> 
   )
 }
 

@@ -25,4 +25,32 @@ const myOffer = [
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quo, quibusdam alias fugit quod aut nisi facere necessitatibus, quas tempora esse delectus cum nobis quia aliquam maiores, porro corrupti ut.Iste praesentium impedit modi iure quibusdam commodi veniam sit quisquam saepe velit, temporibus molestias harum error? Fugiat harum voluptas deleniti, beatae voluptate obcaecati tempora neque commodi porro cumque error ab. Id neque ipsa inventore ipsum placeat recusandae accusamus eaque? Impedit error consequatur voluptas maxime eligendi sed, cupiditate nihil repellat maiores tenetur qui autem quae obcaecati. Natus aliquid voluptates enim soluta? Magnam, voluptatibus modi repudiandae ducimus nulla rem, praesentium debitis deleniti explicabo delectus sint dolor quae et voluptatum recusandae, omnis possimus quisquam ab consequuntur atque ullam porro distinctio dolorum! Vitae, consequuntur! Temporibus, quam eius. Fuga voluptatum, maxime delectus sapiente aperiam eius repellat nostrum. Omnis ex, obcaecati odio totam laboriosam aut quibusdam explicabo! Perspiciatis a dolore quas modi quisquam officiis rem ipsa.Et voluptatibus id maxime possimus animi rem ut in repellendus vitae rerum aliquam, fugiat omnis eius. Ipsam harum quasi laboriosam, minus velit doloribus quod praesentium asperiores, cum eos sed commodi? Dolor at delectus nihil laboriosam repudiandae! Vitae, assumenda laborum tempora saepe nesciunt mollitia fuga velit eaque nostrum consequatur autem doloribus.Hicperspiciatis harum sed nisi saepe cumque incidunt, facere repellendus! Minus est consequuntur deserunt assumenda vel corporis ratione unde similique, sed neque possimus iusto, dolores voluptatem tempora porro aspernatur nesciunt odit quidem?Ab deleniti sapiente ipsam sed dolorem, eius laudantium.Quis dolores, nostrum quia tempore magni iste maxime repudiandae perspiciatis. Nisi est earum maxime. Voluptatum alias autem quos deleniti voluptatem fugiat minima reiciendis quod officia recusandae tempora ut, maxime eaque?Labore sapiente accusamus omnis rem nemo? Sapiente nihil dicta accusamus ad reprehenderit totam quisquam iure placeat labore? Ullam hic officia iusto quis reiciendis aliquam dolorum dignissimos aliquid error amet? Aut."
       }
 ];
-export default myOffer
+
+const testimonials = [
+      {
+            "src": "./images/cult.jpg",
+            "title": "Mordernized Cultivation Process",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quo, quibusdam alias fugit quod aut nisi facere necessitatibus, quas tempora esse delectus cum nobis quia aliquam maiores, porro corrupti ut.Iste praesentium impedit modi iure quibusdam commodi veniam sit quisquam saepe velit, temporibus molestias harum error? Fugiat harum voluptas deleniti, beatae voluptate obcaecati tempora neque commodi porro cumque error ab. "
+      },
+      {
+            "src": "./images/farm.jpg",
+            "title": "Mordernized Cultivation Process",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quo, quibusdam alias fugit quod aut nisi facere necessitatibus, quas tempora esse delectus cum nobis quia aliquam maiores, porro corrupti ut.Iste praesentium impedit modi iure quibusdam commodi veniam sit quisquam saepe velit, temporibus molestias harum error? Fugiat harum voluptas deleniti, beatae voluptate obcaecati tempora neque commodi porro cumque error ab. "
+      },
+      {
+            "src": "./images/fruits.jpg",
+            "title": "Mordernized Cultivation Process",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quo, quibusdam alias fugit quod aut nisi facere necessitatibus, quas tempora esse delectus cum nobis quia aliquam maiores, porro corrupti ut.Iste praesentium impedit modi iure quibusdam commodi veniam sit quisquam saepe velit, temporibus molestias harum error? Fugiat harum voluptas deleniti, beatae voluptate obcaecati tempora neque commodi porro cumque error ab. "
+      },
+      {
+            "src": "./images/smile.jpg",
+            "title": "Mordernized Cultivation Process",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quo, quibusdam alias fugit quod aut nisi facere necessitatibus, quas tempora esse delectus cum nobis quia aliquam maiores, porro corrupti ut.Iste praesentium impedit modi iure quibusdam commodi veniam sit quisquam saepe velit, temporibus molestias harum error? Fugiat harum voluptas deleniti, beatae voluptate obcaecati tempora neque commodi porro cumque error ab. "
+      },
+      {
+            "src": "./images/vegitable.jpg",
+            "title": "Mordernized Cultivation Process",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quo, quibusdam alias fugit quod aut nisi facere necessitatibus, quas tempora esse delectus cum nobis quia aliquam maiores, porro corrupti ut.Iste praesentium impedit modi iure quibusdam commodi veniam sit quisquam saepe velit, temporibus molestias harum error? Fugiat harum voluptas deleniti, beatae voluptate obcaecati tempora neque commodi porro cumque error ab. "
+      }
+]
+export {myOffer, testimonials}

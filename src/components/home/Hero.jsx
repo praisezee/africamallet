@@ -14,7 +14,7 @@ const Hero = () =>
     setIndex(selectedIndex);
   };
   return (
-    <div className="d-flex justify-content-center align-items-center">
+    <div id='home' className="d-flex justify-content-center align-items-center">
       <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img

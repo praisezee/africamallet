@@ -18,14 +18,14 @@ const Header = () =>
         <NavbarToggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <NavLink eventKey={1}>
-              <Link className='nav-link py-1' to='/'>Home</Link>
+            <NavLink href='#home' eventKey={1}>
+              Home
             </NavLink>
-            <NavLink eventKey={2} href="#memes">
-              <Link className='nav-link py-1' to='about'>About</Link>
+            <NavLink eventKey={2} href="#about">
+              About
             </NavLink>
-            <NavLink eventKey={3}>
-              <Link className='nav-link py-1' to='contact'>Contact</Link>
+            <NavLink href='#contact' eventKey={3}>
+              Contact
             </NavLink>
             <NavLink eventKey={4}>
               <Link className='nav-link py-1' to='community'>Community</Link>

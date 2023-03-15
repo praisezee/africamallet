@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react'
-import myOffer from '../../api/offer'
+import React, { useState } from 'react'
+import { myOffer } from '../../api/offer'
+import { Card, Col, Row } from 'react-bootstrap';
 
 const Offer = () =>
 {
@@ -11,20 +12,24 @@ const Offer = () =>
         <hr className="mx-auto opacity-1 text-white w-50" />
       </p>
       { offer.map( item => (
-        <div className="my-2 card bg-dark">
-          <div className="row g-0">
-            <div className="col-md-4 my-auto">
-              <img src={item.src} alt=""   className='img-fluid rounded'/>
-            </div>
-            <div className="col-md-8">
-              <div className="card-body">
-                <div className="card-title mx-auto h2 text-uppercase text-center">{ item.title }</div>
-                <hr className="mx-auto opacity-1 text-white w-25" />
-                <div className="card-text">{ item.text }</div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Card border='secondary' className='my-3 py-2 bg-dark'>
+        <Row className='g-0 bg-dark'>
+          <Col md={ 4 } className='my-auto'>
+            <Card.Img src={item.src} alt='owners image'/>
+          </Col>
+          <Col md={ 8 }>
+            <Card.Body>
+              <Card.Title className='text-center text-uppercase fw-bold'>
+                {item.title}
+              </Card.Title>
+              <hr className="w-25 mx-auto opacity-1" />
+              <Card.Text>
+                {item.text}
+              </Card.Text>
+            </Card.Body>
+          </Col>
+        </Row>
+      </Card>
       ))}
     </div>
   )
